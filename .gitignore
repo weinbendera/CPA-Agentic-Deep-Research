@@ -1,0 +1,55 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and debugging
+logs/
+*.log
+
+# Local configuration files
+*.env
+config.json
+settings.py
+
+# Ignore package manager dependencies
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Ignore IDE/editor settings
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignore compiled files
+*.so
+*.o
+*.a
+*.out
+*.obj
+*.dll
+*.exe
+
+# Ignore test coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
+
+backend/data/faiss_index/
+backend/data/faiss_index/index.faiss
+backend/data/faiss_index/index.pkl
